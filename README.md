@@ -125,7 +125,7 @@ Reproduction requires the same input values and cell order, population order, co
 
 ## Validation status
 
-The source and configuration have been inspected, but this initial package has not been executed in R in the preparation environment. Run the supplied checks and example before relying on it. The included GitHub Actions workflow runs both after publication; no successful CI run is claimed here.
+The core alignment and score-aggregation checks and the complete synthetic A/B/C example passed in [GitHub Actions run #1](https://github.com/hongyuman/cross-dataset-correspondence/actions/runs/41634243030) on 3 November 2026, using Matrix 1.7-6 and glmnet 5.2. GitHub Actions runs these checks on future code changes.
 
 ## Method references
 
